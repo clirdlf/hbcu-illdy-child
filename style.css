@@ -11,3 +11,17 @@
  Tags: blog, e-commerce, portfolio
  Text Domain: illdychild
 */
+
+.section-citation {
+  line-height: 26px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  font-size: 16px;
+  font-family: "Lato";
+  font-weight: 400;
+  color: #fff;
+}
+
+.section-citation a {
+  color: #fff;
+}

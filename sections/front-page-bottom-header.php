@@ -47,19 +47,8 @@ if ( $jumbotron_title || $entry || $first_button_title || $second_button_title )
 					<?php endif; ?>
 				</div><!--/.col-sm-8.col-sm-offset-2-->
 				<div class="col-sm-8 col-sm-offset-2">
-          <style>
-          .section-citation {
-            float: right;
-            line-height: 26px;
-            margin-top: 60px;
-            margin-bottom: 60px;
-            font-size: 16px;
-            color: #fff;
-            font-family: "Lato";
-            font-weight: 400;
-          }
-        </style>
-          <div class="section-citation float-right">
+
+          <div class="section-citation">
             <?php
               $jumbotron_general_image = get_theme_mod( 'illdy_jumbotron_general_image', esc_url( get_template_directory_uri() . '/layout/images/front-page/front-page-header.png' ) );
               $post_id = attachment_url_to_postid($jumbotron_general_image);

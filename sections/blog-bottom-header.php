@@ -9,7 +9,7 @@
 ?>
 <div class="bottom-header blog">
 	<div class="container">
-		<div class="row">
+		<div class="row opaque-background">
 			<?php
 			if ( is_404() ) {
 				$page_title = get_theme_mod( 'illdy_404_title', esc_html__( 'Page not found', 'illdy' ) );
@@ -24,17 +24,14 @@
 
 					?>
 
-          <style>
-          
-        </style>
           <div class="section-citation">
             <?php
-              $jumbotron_general_image = get_theme_mod( 'illdy_jumbotron_general_image', esc_url( get_template_directory_uri() . '/layout/images/front-page/front-page-header.png' ) );
-              $post_id = attachment_url_to_postid($jumbotron_general_image);
-              $metadata = wp_get_attachment_caption($post_id);
-              echo($metadata)
+							// global $post;
+							$post_id = get_post_thumbnail_id($post);
+							$metadata = wp_get_attachment_caption($post_id);
+							echo($metadata);
               ?>
-          </div>d
+          </div><!-- .section-citation-->
 							</div><!--/.col-sm-12-->
 						<?php
 			} elseif ( class_exists( 'WooCommerce' ) && is_shop() ) {

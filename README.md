@@ -16,4 +16,4 @@ Captions should look like this (for <https://hbcudigitallibrary.auctr.edu/digita
 <a href="https://hbcudigitallibrary.auctr.edu/digital/collection/tuld/id/86/rec/4" target="_blank">Photo of Marching Band Passing Through the Chapel (circa. 1925). Courtesy of Tuskegee University Archives.</a>
 ```
 
->>Be sure to include the `target="_blank"` attribute so a new tab is opened (since the user will be leaving the current site)
+>Be sure to include the `target="_blank"` attribute so a new tab is opened (since the user will be leaving the current site)

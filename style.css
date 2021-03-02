@@ -23,6 +23,7 @@
 
 .section-citation a {
   color: #fff;
+  text-decoration: underline;
 }
 
 .opaque-background {

@@ -34,3 +34,11 @@
 .header-opaque-background {
   background: rgba(0, 0, 0, 0.4);
 }
+
+.alignleft {
+  padding-right: 20px;
+}
+
+.alignright {
+  padding-left: 20px;
+}

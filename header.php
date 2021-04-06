@@ -83,7 +83,7 @@ if ( get_theme_mod( 'illdy_sticky_header_enable', false ) ) {
 	<div class="top-header header-opaque-background">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-xs-8">
+				<div class="col-6 col-xs-10">
 
 
 					<?php if ( ! empty( $logo_image ) ) : ?>
@@ -99,7 +99,7 @@ if ( get_theme_mod( 'illdy_sticky_header_enable', false ) ) {
 					<?php endif; ?>
 
 				</div><!--/.col-sm-2-->
-				<div class="col-sm-8 col-xs-4">
+				<div class="col-6 col-xs-2">
 					<nav class="header-navigation">
 						<?php
 						wp_nav_menu(

@@ -80,10 +80,10 @@ if ( get_theme_mod( 'illdy_sticky_header_enable', false ) ) {
 	<div class="pace-overlay"></div>
 <?php endif; ?>
 <header id="header" class="<?php echo $header_class; ?>" style="<?php echo $style; ?>">
-	<div class="top-header">
+	<div class="top-header header-opaque-background">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-4 col-xs-8 header-opaque-background">
+				<div class="col-sm-4 col-xs-8">
 
 
 					<?php if ( ! empty( $logo_image ) ) : ?>
